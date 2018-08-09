@@ -1,23 +1,44 @@
-.sidebar {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #eee;
-  overflow-x: hidden;
-  padding-top: 16px;
+/*#navBar {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    height: 75px;
+    color: white;
+    background-color: #008080;
+    float: left;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    border: 1px solid black;
+    border-radius: 5px;
+	}
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .inline{
+    display: inline-block;
+  }
+
+  ul {
+  list-style: none;
 }
 
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
+ul li h1{
+  font-size: 2rem;
+} 
+
+ul li h3{
+  font-size: 1rem;
+} 
+.NavBarHeader {
+  margin: 10px;
 }
 
-.sidebar a:hover {
-  color: #f1f1f1;
+.NavBarElements {
+  margin: 10px;
 }
+*/
