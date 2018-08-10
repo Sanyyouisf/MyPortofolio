@@ -1,0 +1,34 @@
+#About{
+    margin: 20px;
+    /*display: inline-block;*/
+}
+
+.center{
+    text-align: center;
+}
+
+#Projects {
+    margin: 20px;
+    clear :left;
+}
+
+#Technologies{
+    margin: 20px;
+}
+
+.profilePic{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin: 0px 20px 20px 20px;
+    box-shadow: 2px 2px 15px #008080;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+ 
