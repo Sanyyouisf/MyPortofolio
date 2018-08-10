@@ -118,10 +118,19 @@ ul li h3{
         visibility: visible;
     }
 
+    #footerText{
+    margin-top: 35px;
+    }
+
+    #body{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    }
+
 /*}*/
 
 /************
-big screen
+large screen
 ************/
 @media screen and (min-width: 660px)  {
 /*body {
@@ -144,9 +153,7 @@ big screen
     display: inline-block;
   }
 
-#footerText{
-    margin-top: 35px;
-    }
+
 
 
 }
