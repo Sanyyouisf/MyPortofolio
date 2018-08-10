@@ -5,6 +5,7 @@
 
 .center{
     text-align: center;
+    margin: 25px;
 }
 
 #Projects {
@@ -23,6 +24,21 @@
     margin: 0px 20px 20px 20px;
     box-shadow: 2px 2px 15px #008080;
     border-radius: 10px;
+}
+
+
+.technologyName{
+    visibility: hidden;
+    font-weight: bold;
+}
+
+
+.technologyIcon{
+    height: 75px;
+}
+
+.technologyDiv:hover p{
+    visibility: visible;
 }
 
 
