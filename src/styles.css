@@ -127,18 +127,49 @@ ul li h3{
     #body{
     margin-top: 215px;
     margin-bottom: 75px;
-    background-image: url("/src/assets/Images/backgroundPic/800px_COLOURBOX10133990.jpg");
+    /*background-image: url("/src/assets/Images/backgroundPic/800px_COLOURBOX10133990.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     }
-    #bodyContent{
+    /*#bodyContent{
         opacity: 0.9;
         border: 1px soled red;
         background-color: whitesmoke;
         width: 80%;
         margin: 0px 10% 0px 10%;
+    }*/
+
+    #Projects p {
+        padding: 20px;
     }
+    #Projects h3 {
+        text-align: center;
+    }
+
+    .projectLink{
+        color: black;
+        font-weight: bold;
+    }
+
+    .projectIcon {
+        border: 1px red solid;
+        width: 50%;
+        height: 50%;
+    }
+
+    .projectFram {
+        /*border: 1px solid white;*/
+        /*background-color: gainsboro;*/
+        /*padding: 10px;*/
+    }
+
+    .projectFram:hover {
+        /*border: 2px solid red;*/
+        /*background-color: gainsboro;*/
+    }
+
+    
     
 
 /*}*/
@@ -173,15 +204,15 @@ large screen
  .inline{
     display: inline-block;
   }
-
-
-
-
 }
 
 @media screen and (max-width: 575px)  {
     .xsCol{
         width: 175px;
+    }
+
+    .xsProjcol {
+        width: 400px;
     }
 
     #body{
