@@ -43,6 +43,7 @@ small screen
 /*body {
     background: green;
     }*/
+/*** Nav bar part*****/
 #navBar {
     position: fixed;
     width: 100%;
@@ -59,17 +60,17 @@ small screen
     border: 1px solid black;
     border-radius: 5px;
 	}
-.icone {
+
+.Navbaricone {
     padding-right: 10px;
 }
  
-
 a {
     text-decoration: none;
     color: white;
     }
 
-      ul {
+ul {
   list-style: none;
 }
 
@@ -101,12 +102,21 @@ ul li h3{
 
 }*/
 
+/*** About *****/
+
 .MyImage {
-    width: 25%;
-    margin: 0px 15px 15px 0px;
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin: 0px 50px 15px 0px;
     box-shadow: 2px 2px 15px #008080;
     border-radius: 10px;
     }
+
+.aboutP{
+    padding: 30px;
+    margin: 20px;
+}
 
 .left {
     float: left !important;
@@ -120,9 +130,7 @@ ul li h3{
         visibility: visible;
     }
 
-    #footerText{
-    margin-top: 35px;
-    }
+
 
     #body{
     margin-top: 215px;
@@ -139,7 +147,9 @@ ul li h3{
         width: 80%;
         margin: 0px 10% 0px 10%;
     }*/
+    
 
+/*** projects *****/
     #Projects p {
         padding: 20px;
     }
@@ -153,12 +163,18 @@ ul li h3{
     }
 
     .projectIcon {
-        border: 1px red solid;
-        width: 50%;
-        height: 50%;
+        /*border: 1px red solid;*/
+        width: 80%;
+        height: 80%;
+        padding:10px;
+    }
+
+    .aprojectHeader{
+        margin-top: 10px;
     }
 
     .projectFram {
+        /*border: 1px red solid;*/
         /*border: 1px solid white;*/
         /*background-color: gainsboro;*/
         /*padding: 10px;*/
@@ -167,6 +183,11 @@ ul li h3{
     .projectFram:hover {
         /*border: 2px solid red;*/
         /*background-color: gainsboro;*/
+    }
+
+/*** footer part *****/
+    #footerText{
+    margin-top: 35px;
     }
 
     
@@ -191,8 +212,10 @@ large screen
     background-size: cover;*/
     /*background-repeat: no-repeat;*/
     /*background-image: url("img_tree.gif"), url("paper.gif");*/
-
     }
+
+    /*.oneLineCol {
+    }*/
 
 .showInSmallScreen{
      visibility: hidden;
