@@ -1,5 +1,6 @@
 #About{
     margin: 20px;
+    padding-top: 50px;
     /*display: inline-block;*/
 }
 
@@ -11,11 +12,13 @@
 #Projects {
     margin: 20px;
     clear :left;
+    padding-top: 50px;
 }
 
 #Technologies{
     margin: 20px;
-}
+        padding-top: 50px;
+    }
 
 .profilePic{
     width: 25%;
