@@ -1,57 +1,20 @@
-/************
-the very small screen
-************/
-/*@media screen and (max-width: 575px)  {
-    .xsCol{
-        width: 175px;
-    }
+#body{
+margin-top: 215px;
+margin-bottom: 75px;
+}
 
-    #body{
-    margin-top: 215px;
-    margin-bottom: 100px;
-    }
-
-    .xsFooterIcon{
-        width: 100px;
-    }
-
-    #footer{
-        height: 100px;
-        margin-top: 20px;
-    }
-
-    #footerText{
-        float: none;
-        text-align: center;
-        clear: left;
-    }
-
-    .showFooterInSmallScreen{
-        visibility: visible;
-    }
-
-    .showFooterInLargeScreen{
-        visibility: hidden;
-    }
-}*/
+.center{
+    text-align: center;
+    margin: 25px;
+}
 
 
-/************
-small screen
-************/
-/*@media screen and (max-width: 660px)  {*/
-/*body {
-    background: green;
-    }*/
-/*** Nav bar part*****/
+/*** Navbar part*****/
 #navBar {
     position: fixed;
     width: 100%;
     padding: 10px;
-    /*margin: auto;*/
-    /*margin-bottom: 10px;*/
     color: #000080;
-    /*background-color: #008080;*/
     background-color: #48d1cc;
     float: left;
     left: 0px;
@@ -59,64 +22,59 @@ small screen
     z-index: 1000;
     border: 1px solid black;
     border-radius: 5px;
-	}
-
-/*.active {
-    background-color: red;
-    color: red;
-}*/
+    }
 
 .Navbaricone {
     padding-right: 10px;
 }
- 
+
 a {
     text-decoration: none;
     color: white;
     }
 
 ul {
-  list-style: none;
+list-style: none;
 }
 
 ul li h1{
-  font-size: 2rem;
+font-size: 2rem;
 } 
 
 ul li h3{
-  font-size: 1rem;
+font-size: 1rem;
 } 
+
 .NavBarHeader {
-  margin: 10px;
+margin: 10px;
 }
 
 .NavBarElements {
-  margin: 10px;
+margin: 10px;
 }
 
 .showInSmallScreen{
-     visibility: visible;
+    visibility: visible;
 }
+
 .showInLargeScreen{
-     visibility: hidden; 
+    visibility: hidden; 
 }
-
-/*.body{
-    margin-top: 220px;
-    margin-bottom: 50px;
-
-}*/
 
 /*** About *****/
+#About{
+    margin: 20px;
+    padding-top: 50px;
+}
 
-.MyImage {
-    width: 20%;
-    height: 30%;
+.profilePic{
+    width: 25%;
+    height: 25%;
     float: left;
-    margin: 0px 50px 15px 0px;
+    margin: 0px 50px 20px 20px;
     box-shadow: 2px 2px 15px #008080;
     border-radius: 10px;
-    }
+}
 
 .aboutP{
     padding: 30px;
@@ -125,102 +83,86 @@ ul li h3{
 
 .left {
     float: left !important;
-    }
+}
 
 .showFooterInSmallScreen{
-        visibility: hidden;
-    }
+    visibility: hidden;
+}
 
-    .showFooterInLargeScreen{
-        visibility: visible;
-    }
+.showFooterInLargeScreen{
+    visibility: visible;
+}
 
 
+/*** Technologies *****/
+#Technologies{
+    margin: 20px;
+    padding-top: 50px;
+}
 
-    #body{
-    margin-top: 215px;
-    margin-bottom: 75px;
-    /*background-image: url("/src/assets/Images/backgroundPic/800px_COLOURBOX10133990.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    }
-    /*#bodyContent{
-        opacity: 0.9;
-        border: 1px soled red;
-        background-color: whitesmoke;
-        width: 80%;
-        margin: 0px 10% 0px 10%;
-    }*/
-    
+#Technologies h1 {
+margin-bottom: 50px;
+}
+
+.technologyName{
+    visibility: hidden;
+    font-weight: bold;
+}
+
+.technologyIcon{
+    height: 75px;
+}
+
+.technologyDiv:hover p{
+    visibility: visible;
+}
 
 /*** projects *****/
-    #Projects p {
-        padding: 20px;
-    }
-    #Projects h3 {
-        text-align: center;
-    }
+#Projects {
+    margin: 20px;
+    clear :left;
+    padding-top: 50px;
+}
 
-    .projectLink{
-        color: black;
-        font-weight: bold;
-    }
+#Projects p {
+    padding: 20px;
+}
 
-    .projectIcon {
-        /*border: 1px red solid;*/
-        width: 80%;
-        height: 80%;
-        padding:10px;
-    }
+#Projects h3 {
+    text-align: center;
+}
 
-    .aprojectHeader{
-        margin-top: 10px;
-    }
 
-    .projectFram {
-        /*border: 1px red solid;*/
-        /*border: 1px solid white;*/
-        /*background-color: gainsboro;*/
-        /*padding: 10px;*/
-    }
+.projectLink{
+    color: black;
+    font-weight: bold;
+}
 
-    .projectFram:hover {
-        /*border: 2px solid red;*/
-        /*background-color: gainsboro;*/
-    }
+.projectIcon {
+    width: 80%;
+    height: 80%;
+    padding:10px;
+}
+
+.aprojectHeader{
+    margin-top: 10px;
+}
 
 /*** footer part *****/
-    #footerText{
-    margin-top: 35px;
-    }
-
+#footerText{
+margin-top: 35px;
+}
     
-    
-
-/*}*/
-
 /************
 large screen
 ************/
 @media screen and (min-width: 660px)  {
-/*body {
-    background: pink;
-    }*/
 
 #body{
-    margin-top: 110px;
-    margin-bottom: 70px;
-    /*background-image: url("/src/assets/Images/backgroundPic/800px_COLOURBOX10133990.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-image: url("img_tree.gif"), url("paper.gif");*/
-    }
+margin-top: 110px;
+margin-bottom: 70px;
+}
 
-    /*.oneLineCol {
-    }*/
 
 .showInSmallScreen{
      visibility: hidden;
@@ -241,7 +183,6 @@ very small screen
     
     #navBar{
         position: static;
-        /*margin-top: 0px;*/
     }
 
     .xsCol{
@@ -253,7 +194,6 @@ very small screen
     }
 
     #body{
-    /*margin-top: 215px;*/
     margin-top: -20px;
     margin-bottom: 100px;
     }
@@ -265,8 +205,6 @@ very small screen
 
     #footer{
         height: 100px;
-        margin-top: 20px;
-        /*margin-bottom: 0px;*/
         position: static;
     }
 
@@ -276,12 +214,17 @@ very small screen
         clear: left;
     }
 
+    #footerText p {
+        margin-bottom: 0px;
+    }
+
     .showFooterInSmallScreen{
         visibility: visible;
     }
 
     .showFooterInLargeScreen{
         visibility: hidden;
+        margin: -50px 0px 0px 0px;
     }
 }
 
