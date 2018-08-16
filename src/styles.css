@@ -61,6 +61,11 @@ small screen
     border-radius: 5px;
 	}
 
+/*.active {
+    background-color: red;
+    color: red;
+}*/
+
 .Navbaricone {
     padding-right: 10px;
 }
@@ -229,7 +234,16 @@ large screen
   }
 }
 
+/************
+very small screen
+************/
 @media screen and (max-width: 575px)  {
+    
+    #navBar{
+        position: static;
+        /*margin-top: 0px;*/
+    }
+
     .xsCol{
         width: 175px;
     }
@@ -239,17 +253,21 @@ large screen
     }
 
     #body{
-    margin-top: 215px;
+    /*margin-top: 215px;*/
+    margin-top: -20px;
     margin-bottom: 100px;
     }
 
     .xsFooterIcon{
-        width: 100px;
+        width: 60px;
+        height: 60px;
     }
 
     #footer{
         height: 100px;
         margin-top: 20px;
+        /*margin-bottom: 0px;*/
+        position: static;
     }
 
     #footerText{
