@@ -61,6 +61,20 @@ margin: 10px;
     visibility: hidden; 
 }
 
+/*** ScrollBG *****/
+#ScrollBG{
+    background-image: url('./assets/Images/backgroundPic/SoftwareEngineer.png');
+    /*background-color: rebeccapurple;*/
+    /*float: none;*/
+    width: 100%;
+    height: 200px;
+    clear: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 /*** About *****/
 #About{
     margin: 20px;
