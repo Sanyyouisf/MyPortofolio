@@ -64,8 +64,8 @@ margin: 10px;
 /*** ScrollBG *****/
 #ScrollBG{
     background-image: url('./assets/Images/backgroundPic/SoftwareEngineer.png');
-    background-color: rebeccapurple;
-    float: none;
+    /*background-color: rebeccapurple;*/
+    /*float: none;*/
     width: 100%;
     height: 200px;
     clear: left;
