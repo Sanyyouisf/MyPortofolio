@@ -114,8 +114,10 @@ margin: 10px;
     padding-top: 50px;
 }
 
-#Technologies h1 {
+#Technologies h1 , #About h1 ,#Projects h1{
 margin-bottom: 50px;
+font-family: 'Lobster',cursive ;
+font-weight: bold;
 }
 
 .technologyName{
