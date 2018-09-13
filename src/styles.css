@@ -121,15 +121,38 @@ margin-bottom: 50px;
 .technologyName{
     visibility: hidden;
     font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.techFram {
+    width: 130px;
+    height: 110px;
+    background: #e3e3e3;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    padding: 7px;
+    margin: 25px;
+    box-shadow: 5px 10px #888888;
 }
 
 .technologyIcon{
-    height: 75px;
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+   vertical-align: center;
 }
 
-.technologyDiv:hover p{
+.technologyDiv:hover p {
     visibility: visible;
+
+    /*margin-top: 5px;*/
 }
+
+/*.technologyDiv:hover .techFram {
+box-shadow: 5px 10px #888888;
+
+}*/
 
 /*** projects *****/
 #Projects {
@@ -174,7 +197,7 @@ large screen
 
 #body{
 margin-top: 110px;
-margin-bottom: 70px;
+margin-bottom: 100px;
 }
 
 
