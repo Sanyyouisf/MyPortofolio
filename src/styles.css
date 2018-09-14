@@ -28,7 +28,7 @@ margin-bottom: 100px;
     padding-right: 10px;
 }
 
-a {
+a , a:hover{
     text-decoration: none;
     color: white;
     }
@@ -197,6 +197,10 @@ font-weight: bold;
     font-weight: bold;
 }
 
+.marginBottom{
+    margin-bottom: 10px;
+}
+
 .projectIcon {
     width: 80%;
     height: 80%;
@@ -225,6 +229,17 @@ margin-top: 35px;
 /************
 large screen
 ************/
+@media screen and (Max-width: 892px)  {
+    body{
+    background-color: blue;
+    }
+
+    /*.mdProjectCol {
+        width: 100%;
+    }*/
+}
+
+
 @media screen and (min-width: 660px)  {
 
 body{
@@ -267,6 +282,10 @@ very small screen
 
     .xsProjcol {
         width: 400px;
+    }
+
+    .xsProjectIcon{
+        width: 100%;
     }
 
     #body{
