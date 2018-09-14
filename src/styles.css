@@ -1,6 +1,6 @@
 #body{
 margin-top: 215px;
-margin-bottom: 75px;
+margin-bottom: 100px;
 }
 
 .center{
@@ -28,7 +28,7 @@ margin-bottom: 75px;
     padding-right: 10px;
 }
 
-a {
+a , a:hover{
     text-decoration: none;
     color: white;
     }
@@ -114,28 +114,63 @@ margin: 10px;
     padding-top: 50px;
 }
 
-#Technologies h1 {
+#Technologies h1 , #About h1 ,#Projects h1{
 margin-bottom: 50px;
+font-family: 'Lobster',cursive ;
+font-weight: bold;
 }
 
 .technologyName{
     visibility: hidden;
     font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.techFram {
+    width: 130px;
+    height: 110px;
+    background: #e3e3e3;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    padding: 7px;
+    margin: 25px;
+    box-shadow: 5px 10px #888888;
 }
 
 .technologyIcon{
-    height: 75px;
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+   vertical-align: center;
 }
 
-.technologyDiv:hover p{
+.technologyDiv:hover p {
     visibility: visible;
+
+    /*margin-top: 5px;*/
 }
+
 
 /*** projects *****/
+
+.BG{
+    background-color: red;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
 #Projects {
     margin: 20px;
     clear :left;
     padding-top: 50px;
+    /*background-color: #add8e6;
+    background-size:100% auto; 
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;*/
 }
 
 #Projects p {
@@ -144,12 +179,26 @@ margin-bottom: 50px;
 
 #Projects h3 {
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
+.projectFram{
+    
+    background: #e3e3e3;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    padding: 7px;
+    margin: 10px 10px 20px 10px;
+    box-shadow: 2px 10px #888888;
+}
 
-.projectLink{
+.projectLink, .projectLink:hover{
     color: black;
     font-weight: bold;
+}
+
+.marginBottom{
+    margin-bottom: 10px;
 }
 
 .projectIcon {
@@ -162,6 +211,16 @@ margin-bottom: 50px;
     margin-top: 10px;
 }
 
+.inLine{
+    display: inline-block !important;
+}
+
+.right {
+    /*float: right;*/
+    /*overflow: auto;*/
+    clear: both;
+}
+
 /*** footer part *****/
 #footerText{
 margin-top: 35px;
@@ -170,11 +229,25 @@ margin-top: 35px;
 /************
 large screen
 ************/
+@media screen and (Max-width: 892px)  {
+    body{
+    background-color: blue;
+    }
+
+    /*.mdProjectCol {
+        width: 100%;
+    }*/
+}
+
+
 @media screen and (min-width: 660px)  {
 
+body{
+    background-color: pink;
+}
 #body{
 margin-top: 110px;
-margin-bottom: 70px;
+margin-bottom: 100px;
 }
 
 
@@ -195,6 +268,10 @@ very small screen
 ************/
 @media screen and (max-width: 575px)  {
     
+    body{
+        background-color: green;
+    }
+
     #navBar{
         position: static;
     }
@@ -205,6 +282,10 @@ very small screen
 
     .xsProjcol {
         width: 400px;
+    }
+
+    .xsProjectIcon{
+        width: 100%;
     }
 
     #body{
