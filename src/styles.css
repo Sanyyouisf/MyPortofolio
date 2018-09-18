@@ -69,6 +69,7 @@ margin: 10px;
     width: 100%;
     height: 200px;
     /*clear: left;*/
+    margin-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -110,7 +111,7 @@ margin: 10px;
 
 /*** Technologies *****/
 #Technologies{
-    margin: 20px;
+    /*margin: 20px;*/
     padding-top: 50px;
 }
 
