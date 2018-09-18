@@ -152,7 +152,10 @@ font-weight: bold;
 
 /*** projects *****/
 #Projects {
-    margin: 20px;
+    /*margin: 20px;*/
+    /*margin: 20px 0px 20px 0px;*/
+    /*margin-top: 20px;*/
+    margin-bottom: 40px;
     clear :left;
     padding-top: 50px;
 }
