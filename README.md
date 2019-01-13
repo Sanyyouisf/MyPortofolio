@@ -14,7 +14,7 @@ My personal website
 
 #### Technologies
 - Some of the technologies I Know and I usualy use.  
-![Blog Screengrab](hhttps://github.com/Sanyyouisf/MyPortofolio/blob/ReadMe/src/assets/ReadMe/TechnologiesReadMe.jpg)
+![Blog Screengrab](https://github.com/Sanyyouisf/MyPortofolio/blob/ReadMe/src/assets/ReadMe/TechnologiesReadMe.jpg)
 
 ### Project Specs
 - must use Angular.
