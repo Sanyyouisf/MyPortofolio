@@ -31,6 +31,8 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
+    "cryptiles": ">=4.1.2",
+    "adm-zip": ">=0.4.11",
     "@angular-devkit/build-angular": "~0.7.0",
     "@angular/cli": "~6.1.2",
     "@angular/compiler-cli": "^6.1.0",
