@@ -1,5 +1,5 @@
 # MyPortofolio 
-My personal website 
+My Personal Website 
 
 ### Project Description 
 - I built my Website using angular5 it has three main parts About me, some of my projects and the technologies that I worked with. and I deployed it using firebase.  
